@@ -73,13 +73,6 @@ def pascal_traingle_2D_array(n:int, apex:int =1):
     for row in array:
         print(*row, sep=" ")
 
-
-    
-
-
-
-
-
 #Unit Tests
 if __name__ == "__main__":
     print('max_num fxn tests:')
@@ -108,5 +101,5 @@ if __name__ == "__main__":
     print(" pascal_traingle_2D_array fxn tests:")
     pascal_traingle_2D_array(5)
     pascal_traingle_2D_array(10,2)
-    
+
 
